@@ -1,0 +1,164 @@
+$date
+	Tue Jul 28 11:56:57 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module processor_frontend_comprehensive_tb $end
+$var wire 3 ! write_reg [2:0] $end
+$var wire 1 " write_enable $end
+$var wire 1 # sel_operand1 $end
+$var wire 1 $ sel_2s_comp $end
+$var wire 8 % regout2 [7:0] $end
+$var wire 8 & regout1 [7:0] $end
+$var wire 3 ' read_reg2 [2:0] $end
+$var wire 3 ( read_reg1 [2:0] $end
+$var wire 8 ) pc [7:0] $end
+$var wire 8 * operand2 [7:0] $end
+$var wire 8 + operand1 [7:0] $end
+$var wire 16 , inst [15:0] $end
+$var wire 8 - immediate [7:0] $end
+$var wire 3 . alu_op [2:0] $end
+$var reg 8 / alu_result [7:0] $end
+$var reg 1 0 clk $end
+$var reg 1 1 rst $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+11
+00
+b101 /
+b0 .
+b101 -
+b1000001000000101 ,
+b101 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+0$
+1#
+1"
+b1 !
+$end
+#5000
+10
+#10000
+00
+#12000
+01
+#15000
+b11 /
+b11 +
+1#
+1"
+b11 -
+b10 !
+b1000010000000011 ,
+b1 )
+10
+#20000
+00
+#25000
+b1000 /
+b11 *
+b101 +
+b11 %
+b101 &
+0#
+1"
+b1010000 -
+b11 !
+b10 '
+b1 (
+b11001010000 ,
+b10 )
+10
+#30000
+00
+#35000
+b10 /
+b11111101 *
+1$
+b1 .
+1"
+b100 !
+b1100001010000 ,
+b11 )
+10
+#40000
+00
+#45000
+b1 /
+b11 *
+b10 .
+0$
+1"
+b101 !
+b10101001010000 ,
+b100 )
+10
+#50000
+00
+#55000
+b111 /
+b11 .
+1"
+b110 !
+b11110001010000 ,
+b101 )
+10
+#60000
+00
+#65000
+b110 /
+b100 .
+1"
+b111 !
+b100111001010000 ,
+b110 )
+10
+#70000
+00
+#75000
+b0 *
+b0 +
+b0 /
+b0 %
+b0 &
+b0 .
+0"
+b0 -
+b0 !
+b0 '
+b0 (
+b1111000000000000 ,
+b111 )
+10
+#80000
+00
+#85000
+b1000 )
+10
+#90000
+00
+#95000
+b1001 )
+10
+#100000
+00
+#105000
+b1010 )
+10
+#110000
+00
+#112000
